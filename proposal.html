@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Proposal To You</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Crimson Text', serif;
+            background: linear-gradient(to bottom, #fde4ec, #f8c6d8);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin: 30px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .heart {
+            position: absolute;
+            font-size: 300px;
+            opacity: 0.03;
+            z-index: 0;
+            transform: rotate(45deg);
+            pointer-events: none;
+        }
+        
+        .heart-1 {
+            top: -100px;
+            right: -80px;
+        }
+        
+        .heart-2 {
+            bottom: -120px;
+            left: -100px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            color: #d23669;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .date {
+            font-style: italic;
+            color: #888;
+            margin-bottom: 20px;
+        }
+        
+        .salutation {
+            font-size: 1.4rem;
+            margin-bottom: 30px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .letter-body {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            text-align: justify;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .signature {
+            text-align: right;
+            margin-top: 40px;
+            font-style: italic;
+            font-size: 1.3rem;
+            color: #d23669;
+            font-weight: 600;
+        }
+        
+        .memories-container {
+            background: #fff5f8;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border-left: 4px solid #d23669;
+        }
+        
+        .memories-title {
+            font-size: 1.4rem;
+            color: #d23669;
+            margin-bottom: 15px;
+        }
+        
+        .memory {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .memory-icon {
+            color: #d23669;
+            margin-right: 10px;
+            font-size: 1.2rem;
+            min-width: 24px;
+        }
+        
+        .btn {
+            background: #d23669;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+            font-family: 'Crimson Text', serif;
+        }
+        
+        .btn:hover {
+            background: #a51c50;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .letter-body {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart heart-1">❤</div>
+        <div class="heart heart-2">❤</div>
+        
+        <header>
+            <h1>My Proposal To You</h1>
+            <div class="date">August 29, 2025</div>
+        </header>
+        
+        <div class="salutation">My Dearest Deborah,</div>
+        
+        <div class="letter-body">
+            <p>I'm writing this because you deserve more than a text or a call. You deserve my honesty, my courage, and my commitment. I'm sorry it took me this long to fully show up for us.</p>
+            
+            <p>First, and most importantly, I am truly sorry for the pain I caused when I stopped talking to you. There is no excuse for how I handled things. It was unfair, confusing, and it was a mistake I've thought about every day since.</p>
+            
+            <p>You asking for this proposal made me realize something important. It's not about forcing anything; it's about clarity and respect. It's about you protecting your heart, and you have every right to do that. Thank you for giving me this chance to step up and be clear about my intentions.</p>
+            
+            <p>The reason I'm creating this is simple, but it comes from the deepest part of me:</p>
+            
+            <p style="text-align: center; font-weight: 600; margin: 25px 0; color: #d23669;">
+                I want to officially, and with all my heart, propose that we try again.
+            </p>
+            
+            <p>I want to rebuild what we had, but I want us to build it even stronger this time. I want to rediscover the connection we never really lost and commit to nurturing it with the honesty and communication it deserves.</p>
+        </div>
+        
+        <div class="memories-container">
+            <div class="memories-title">What I've Missed About Us</div>
+            
+            <div class="memory">
+                <div class="memory-icon">❤</div>
+                <div>The way you scold me for everything</div>
+            </div>
+            
+            <div class="memory">
+                <div class="memory-icon">❤</div>
+                <div>Our late-night conversations about everything and nothing</div>
+            </div>
+            
+            <div class="memory">
+                <div class="memory-icon">❤</div>
+                <div>How you'd make me apologize for everything</div>
+            </div>
+            
+            <div class="memory">
+                <div class="memory-icon">❤</div>
+                <div>The way you feel concern about me</div>
+            </div>
+        </div>
+        
+        <div class="letter-body">
+            <p>I am not against, I am for <em>us</em>. I have missed you, I have missed your spirit, and I have missed my best friend.</p>
+            
+            <p>I understand that trust needs to be earned back, and I am ready to put in the work, patiently and consistently, to show you that I am serious. My feelings for you are genuine, and my desire to be with you is a conscious choice I am making because I can't imagine my future without you in it.</p>
+            
+            <p>You are not forcing anything. This is me, choosing you, and asking you to choose me back.</p>
+            
+            <p>I would be the luckiest man in the world if you would give me—give us—this second chance.</p>
+        </div>
+        
+        <div class="signature">
+            <p>With all my love and hope,</p>
+            <p>Ayo</p>
+        </div>
+    </div>
+    
+    <button class="btn" onclick="showMessage()">My Promise to You</button>
+    
+    <footer>
+        Created with love, for you alone.
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("I promise to communicate openly, to cherish what we have, and to never take us for granted again. You have my heart.");
+        }
+    </script>
+</body>
+</html>
